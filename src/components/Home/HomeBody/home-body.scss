@@ -1,0 +1,32 @@
+.homebody-1{
+  background-color: var(--light-cream);
+  padding-top: 5rem;
+  padding-bottom: 5rem;    
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.homebody-2{
+  background-color: var(--cream);
+  padding-top: 5rem;
+  padding-bottom: 5rem;    
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .homebody-1{
+    padding-right: 4rem;
+    padding-left: 4rem;    
+  }
+
+  .homebody-2{
+    text-align: left;
+    padding-right: 4rem;
+  }
+  
+}

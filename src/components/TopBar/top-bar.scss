@@ -1,0 +1,51 @@
+element-style{
+  height: 0;
+}
+
+#topbar-padding{
+  padding-top: 2.5rem;
+  padding-bottom: 3.75rem;
+}
+
+.headroom{
+  background-color: var(--coral);
+  font-family: 'Fredoka One';
+  align-items: baseline;
+}
+
+.panda-nav{
+  display: none;
+}
+
+#top-nav{
+  display: none;
+}
+
+@media (min-width: 480px) {
+  .headroom{
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  #top-nav{
+    display: block;
+  }
+
+  .nav-link{
+    text-decoration: none;
+    color: var(--dark-brown);
+    padding-right: 4rem;
+  }
+
+  .panda-nav{
+    display: block;
+    height: 4.5rem;
+    width: 4.5rem;
+    filter: none;
+    padding-left: 2rem;
+  }
+}

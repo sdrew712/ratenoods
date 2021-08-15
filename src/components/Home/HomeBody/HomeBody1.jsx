@@ -1,0 +1,17 @@
+import React from "react";
+import "./home-body.scss";
+
+
+export default function Homebody1(props){
+    return(
+      <>
+        <div className="homebody-1">
+          <div className="container">
+            <h2 className="header-text">{props.headerText}</h2>
+            <p>{props.bodyText}</p>
+            <button type="button">{props.buttonText}</button>
+          </div>
+        </div>            
+      </>
+    );
+  }
