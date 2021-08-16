@@ -1,10 +1,10 @@
 import React from "react";
 import TopBar from "./TopBar/TopBar";
 import Footer from "./Footer/Footer";
-import Home from "./Home/Home";
-import Reviews from "./Reviews/Reviews";
-import Upgrades from "./Upgrades/Upgrades";
-import Contact from "./Contact/Contact";
+import HomePage from "./HomePage/HomePage";
+import ReviewsPage from "./ReviewsPage/ReviewsPage";
+import UpgradesPage from "./UpgradesPage/UpgradesPage";
+import ContactPage from "./ContactPage/ContactPage";
 import {
   BrowserRouter,
   Switch,
@@ -18,10 +18,10 @@ export default function Router() {
       <TopBar />
       
       <Switch>
-        <Route path="/reviews" component={Reviews} />
-        <Route path="/upgrades" component={Upgrades} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/" component={Home} />
+        <Route path="/reviews" component={ReviewsPage} />
+        <Route path="/upgrades" component={UpgradesPage} />
+        <Route path="/contact" component={ContactPage} />
+        <Route path="/" component={HomePage} />
         <Route path="/*">
           <Redirect to="/" />
         </Route>
