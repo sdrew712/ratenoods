@@ -8,7 +8,7 @@ export default function Homebody1(props){
         <div className="body-style-1">
           <div className="container">
             <h2 className="h2-padding-container">{props.headerText}</h2>
-            <p className="body-text">{props.bodyText}</p>
+            <p>{props.bodyText}</p>
             <button type="button">{props.buttonText}</button>
           </div>
         </div>            

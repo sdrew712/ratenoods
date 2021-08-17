@@ -79,6 +79,10 @@ a{
   padding-bottom: 4rem;
 }
 
+.p-padding-container{
+  padding-bottom: 4rem;
+}
+
 .body-style-1{
   background-color: var(--cream);
   padding-top: 5rem;
@@ -99,9 +103,19 @@ a{
   text-align: center;
 }
 
+.body-style-3{
+  background-color: var(--light-cream);
+  padding-top: 5rem;
+  padding-bottom: 5rem;    
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
 .title-text{
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 8%;
+  padding-left: 8%;
 }
 
 @media (min-width: 769px) {
@@ -130,7 +144,7 @@ a{
     padding-right: 0;
   }
 
-  .body-style-1{
+  .body-style-1, .body-style-3{
     padding-right: 4rem;
     padding-left: 4rem;    
   }
@@ -142,5 +156,10 @@ a{
   .title-text{
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .p-padding-container{
+    padding-right: 10%;
+    padding-left: 10%;
   }
 }
