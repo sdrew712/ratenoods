@@ -4,7 +4,7 @@ import PageHeader from "../PageHeader/PageHeader";
 export default function ReviewsPage(){
   return(
     <>
-      <PageHeader titleText="Reviews" />
+      <PageHeader titleText="Noodle Reviews" />
     </>
   );
 }

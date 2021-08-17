@@ -3,8 +3,8 @@ import React from "react";
 export default function PageHeader(props){
     return(
       <>
-        <div className="container">
-          <h2>{props.titleText}</h2>
+        <div className="container body-style-1">
+          <h2 className="title-text">{props.titleText}</h2>
         </div>         
       </>
     );

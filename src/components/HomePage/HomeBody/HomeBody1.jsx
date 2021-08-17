@@ -5,9 +5,9 @@ import "./home-body.scss";
 export default function Homebody1(props){
     return(
       <>
-        <div className="homebody-1">
+        <div className="body-style-1">
           <div className="container">
-            <h2>{props.headerText}</h2>
+            <h2 className="h2-padding-container">{props.headerText}</h2>
             <p className="body-text">{props.bodyText}</p>
             <button type="button">{props.buttonText}</button>
           </div>
