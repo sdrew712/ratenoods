@@ -18,6 +18,11 @@
   text-align: center;
 }
 
+.body-text{
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
 .meal-img{
   display: none;
 }
@@ -31,6 +36,11 @@
   .homebody-2{
     text-align: left;
     padding-right: 4rem;
+  }
+
+  .body-text{
+    padding-right: 15%;
+    padding-left: 15%;
   }
 
   .meal-img{

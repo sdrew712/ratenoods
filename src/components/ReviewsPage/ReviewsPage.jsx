@@ -1,9 +1,10 @@
 import React from "react";
+import PageHeader from "../PageHeader/PageHeader";
 
 export default function ReviewsPage(){
   return(
     <>
-      <h1>hello world</h1>
+      <PageHeader titleText="Reviews" />
     </>
   );
 }
