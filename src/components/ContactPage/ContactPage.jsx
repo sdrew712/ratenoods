@@ -1,5 +1,6 @@
 import React from "react";
 import PageHeader from "../PageHeader/PageHeader";
+import "./contact-page.scss"
 
 export default function ContactPage(){
   return(
@@ -17,6 +18,27 @@ export default function ContactPage(){
       <div className="body-style-1 container">
         <div className="container">
           <h2 className="h2-padding-container">Send a message</h2>
+
+          <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label htmlFor="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label htmlFor="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label htmlFor="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+              <li>
+                <button type="submit">Send your message</button>
+              </li>
+            </ul>
+          </form>
+
         </div>
       </div> 
 
