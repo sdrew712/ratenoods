@@ -4,7 +4,6 @@ import "./reviews.scss";
 
 export default function Review(props){
     return(
-      <>
         <div className={props.className}>
           <p className="date">{props.date}</p>
 
@@ -14,16 +13,14 @@ export default function Review(props){
               <p className="rating">{props.rating}</p>
               <p className="noodle-text">{props.bodyText}</p>
            </div>   
+            <div className="button-container">
+              <button type="button" className="review-button">Read more</button>
+            </div>   
 
             <div className="img-container">
               <img src={props.noodleImg} alt="noodle_img" className="noodle-img"/>
             </div>
-            
-            <div className="button-container">
-              <button type="button" className="review-button">Read more</button>
-            </div>   
-        </div>
+          </div>
         </div>     
-      </>
     );
   }

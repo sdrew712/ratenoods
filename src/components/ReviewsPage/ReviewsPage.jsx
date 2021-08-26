@@ -4,7 +4,9 @@ import Review from "./Review";
 import ReviewsText from "./ReviewsText";
 import maruchanChicken from "./noodleImages/maruchan-chicken.jpg"
 import indomieChicken from "./noodleImages/indomie-chicken-curry.jpg"
+import appendButton from "./appendButton";
 
+appendButton();
 
 export default function ReviewsPage(){
   return(

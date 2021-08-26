@@ -10,8 +10,19 @@
   padding-bottom: 5rem;
 }
 
+.review-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.review-text-container{
+  order: 0;
+}
+
 .review-h2{
   text-align: center;
+  padding-top: 2rem;
 }
 
 .date{
@@ -20,18 +31,20 @@
 }
 
 .button-container{
+  order: 2;
   display: flex;
   justify-content: center;
 }
 
 .review-button{
-  margin-top: 0;
+  margin-top: 3rem;
 }
 
 .img-container{
+  padding-top: 3rem;
+  order: 1;
   display: flex;
   justify-content: center;
-  padding-top: 3rem;
 }
 
 .rating{
@@ -41,46 +54,90 @@
 }
 
 @media (min-width: 769px) {
-  // .review-style-1{
-  //   text-align: right;
-  // }
-  
-  .review-container{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
+  // all styles
 
   .date{
     padding-left: 3rem;
   }
 
-  .review-container{
-    padding-left: 10rem;
-    padding-right: 10rem;
+  .review-button{
+    margin-top: 4rem;
   }
 
-  .review-text-container{
+  // Styles for style2
+
+  .review-container{
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .review-style-2 .review-text-container{
+    order: 0;
+    width: 45%;
+    padding-left: 4rem;
+  }
+
+  .review-style-2 .review-h2{
+    text-align: inherit;
+  }
+
+  .review-style-2 .img-container{
+    padding-top: 0;
+    order: 1;
+    width: 45%;
+    justify-content: inherit;
+  }
+
+  .review-style-2 .noodle-img{
+    height: 80%;
+    width: 80%;
+  }
+
+  .review-style-2 .button-container{
+    order: 2;
+    justify-content: flex-start;
+  }
+
+  // Styles for style1
+  
+  .review-style-1 .review-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .review-style-1 .review-container{
+    padding-top: 5rem;
+  }
+
+  .review-style-1 .review-text-container{
+    order: 1;
+    width: 40%;
+    padding-right: 5rem;
+  }
+
+  .review-style-1 .review-h2{
+    text-align: left;
+  }
+
+  .review-style-1 .img-container{
+    padding-top: 0;
+    margin-right: 2rem;
     order: 0;
     width: 50%;
   }
 
-  .review-h2{
-    text-align: inherit;
+  .review-style-1 .noodle-img{
+    height: 90%;
+    width: 90%;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 
-  .img-container{
+  .review-style-1 .button-container{
     order: 2;
-    width: 50%;
-  }
-
-  .noodle-img{
-    height: 100%;
-    width: 100%;
-    margin-left: 10rem;
-  }
-
-  .button-container{
-    order: 3;
   }
 }
