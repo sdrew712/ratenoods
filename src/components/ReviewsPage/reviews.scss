@@ -56,91 +56,64 @@
 @media (min-width: 769px) {
   // all styles
 
-  .date{
-    padding-left: 3rem;
-  }
-
   .review-button{
     margin-top: 4rem;
   }
-
-  // Styles for style2
-
+  
   .review-container{
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding: 3rem 8rem 1rem 8rem;
+  }
+
+  .review-h2{
+    text-align: left;
+  }
+
+  .noodle-img{
+    height: 90%;
+    width: 90%;
+  }
+
+  // Styles for style2
+  .review-style-2 .date{
+    padding-left: 3rem;
   }
 
   .review-style-2 .review-text-container{
-    order: 0;
     width: 45%;
-    // padding-left: 4rem;
-  }
-
-  .review-style-2 .review-h2{
-    text-align: inherit;
   }
 
   .review-style-2 .img-container{
     padding-top: 0;
-    // order: 1;
     width: 45%;
-    // justify-content: inherit;
-    // display: inline-block;
-
   }
 
-  .review-style-2 .noodle-img{
-    height: 100%;
-    width: 100%;
-  }
-
-  .review-style-2 .button-container{
-    // order: 2;
+  .button-container{
     justify-content: flex-start;
   }
 
   // Styles for style1
-  
-  .review-style-1 .review-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: center;
-  }
 
   .review-style-1 .review-container{
-    padding-top: 5rem;
+    clear: right;
   }
 
   .review-style-1 .review-text-container{
     order: 1;
-    width: 40%;
-    padding-right: 5rem;
-  }
-
-  .review-style-1 .review-h2{
-    text-align: left;
+    width: 45%;
   }
 
   .review-style-1 .img-container{
     padding-top: 0;
-    margin-right: 2rem;
+    width: 45%;
     order: 0;
-    width: 50%;
   }
 
-  .review-style-1 .noodle-img{
-    height: 90%;
-    width: 90%;
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
-  .review-style-1 .button-container{
-    order: 2;
+  .review-style-1 .date{
+    padding-left: 0rem;
+    padding-right: 3rem;
+    float: right;
   }
 }
