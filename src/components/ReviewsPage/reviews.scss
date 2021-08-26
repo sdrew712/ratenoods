@@ -67,16 +67,17 @@
   // Styles for style2
 
   .review-container{
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 
   .review-style-2 .review-text-container{
     order: 0;
     width: 45%;
-    padding-left: 4rem;
+    // padding-left: 4rem;
   }
 
   .review-style-2 .review-h2{
@@ -85,18 +86,20 @@
 
   .review-style-2 .img-container{
     padding-top: 0;
-    order: 1;
+    // order: 1;
     width: 45%;
-    justify-content: inherit;
+    // justify-content: inherit;
+    // display: inline-block;
+
   }
 
   .review-style-2 .noodle-img{
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
   }
 
   .review-style-2 .button-container{
-    order: 2;
+    // order: 2;
     justify-content: flex-start;
   }
 
