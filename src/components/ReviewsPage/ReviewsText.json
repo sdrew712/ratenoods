@@ -46,5 +46,45 @@
     "rating": "Rating: 🍜🍜🍜🍜🍜",
     "bodyText": "This soup is one of my favorites by Mama...",
     "noodleImg": ""
+  },
+  {
+    "className": "review-style-2",
+    "date": "August 19, 2021",
+    "noodleName": "Soo Beef with Seaweed",
+    "rating": "Rating: 🍜🍜",
+    "bodyText": "A little too much seaweed...",
+    "noodleImg": ""
+  },
+  {
+    "className": "review-style-1",
+    "date": "August 19, 2021",
+    "noodleName": "Mama Shrimp Creamy",
+    "rating": "Rating: 🍜🍜",
+    "bodyText": "One of the only Mama noodles I dislike due to its excessive shrimpiness...",
+    "noodleImg": ""
+  },
+  {
+    "className": "review-style-2",
+    "date": "August 19, 2021",
+    "noodleName": "Mama Rice Vermicelli",
+    "rating": "Rating: 🍜🍜🍜🍜🍜",
+    "bodyText": "A lot like the Mama Chand Clear Soup in terms of flavor and spice, but with new noodles...",
+    "noodleImg": ""
+  },
+  {
+    "className": "review-style-1",
+    "date": "August 19, 2021",
+    "noodleName": "Snapdragon Beef Pho",
+    "rating": "Rating: 🍜🍜",
+    "bodyText": "Would be good if it wasn't for the excessive ginger...",
+    "noodleImg": ""
+  },
+  {
+    "className": "review-style-2",
+    "date": "August 19, 2021",
+    "noodleName": "Vifon Chicken Pho",
+    "rating": "Rating: 🍜🍜🍜🍜🍜",
+    "bodyText": "Great broth flavor. Tastes almost like it came out of a restaurant...",
+    "noodleImg": ""
   }
 ]
