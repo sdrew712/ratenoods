@@ -3,6 +3,7 @@ import reviewFunctions from "./reviewFunctions"
 import Review from './Review';
 import Pagination from "./Pagination";
 import ReviewsText from "./ReviewsText.json"
+import "./reviews.scss"
 
 reviewFunctions();
 
@@ -13,12 +14,6 @@ export default function ReviewsPage() {
   useEffect(() => {
     setPosts(ReviewsText)
   }, [posts]);
-
-  // posts.map((post) => {
-  //   return (
-  //     <div key={post.noodleName}></div>
-  //   )
-  // })
 
   if (error) return <h1>{error}</h1>;
 

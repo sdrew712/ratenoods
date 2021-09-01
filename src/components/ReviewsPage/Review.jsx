@@ -16,7 +16,7 @@ export default function Review(props) {
         </div>   
 
         <div className="img-container">
-          <img src={noodleImg} alt="noodle_img" className="noodle-img"/>
+          <img src={`./noodleImages/${noodleImg}.jpg`} alt="noodle_img" className="noodle-img"/>
         </div>
       </div>
     </div>     
