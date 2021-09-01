@@ -53,6 +53,20 @@
   padding-bottom: 2rem;
 }
 
+.next-page-container{
+  background-color: var(--light-cream);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.next-page-button{
+  margin-top: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 @media (min-width: 769px) {
   // all styles
 
