@@ -48,7 +48,7 @@ export default function Pagination(props) {
         {/* previous button */}
         <button
           onClick={goToPreviousPage}
-          className={`prev ${currentPage === 1 ? "disabled" : ""}`}
+          className={`pagination-button prev ${currentPage === 1 ? "disabled" : ""}`}
         >
           prev
         </button>
@@ -58,7 +58,7 @@ export default function Pagination(props) {
           <button
             key={index}
             onClick={changePage}
-            className={`paginationItem ${
+            className={`pagination-button paginationItem ${
               currentPage === pageNumber ? "active" : null
             }`}
           >
@@ -68,7 +68,7 @@ export default function Pagination(props) {
         {/* next button */}
         <button
           onClick={goToNextPage}
-          className={`next ${currentPage === pages ? "disabled" : ""}`}
+          className={`pagination-button next ${currentPage === pages ? "disabled" : ""}`}
         >
           next
         </button>

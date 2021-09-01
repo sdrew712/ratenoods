@@ -37,7 +37,7 @@
 }
 
 .review-button{
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .img-container{
@@ -51,6 +51,14 @@
   font-size: 1rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pagination{
+  background-color: var(--light-cream);
+}
+
+.pagination-button{
+  margin: 1.5rem;
 }
 
 .next-page-container{
@@ -129,5 +137,12 @@
     padding-left: 0rem;
     padding-right: 3rem;
     float: right;
+  }
+
+  .pagination{
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 }
