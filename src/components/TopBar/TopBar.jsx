@@ -18,7 +18,7 @@ export default function TopBar() {
       <div id="top-nav">
         <Link to="/reviews" className="nav-link">Reviews</Link>
         <Link to="/upgrades" className="nav-link">Upgrades</Link>
-        <Link to="/contact" className="nav-link">Contact</Link>
+        <Link to="/about" className="nav-link">About</Link>
       </div>
     </Headroom>
   );

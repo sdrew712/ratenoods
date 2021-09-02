@@ -70,6 +70,7 @@ button{
 
 a{
   font-size: 1.25rem;
+  text-decoration: none;
 }
 
 .container{
@@ -82,11 +83,6 @@ a{
 }
 
 .bottom-padding-container{
-  padding-bottom: 4rem;
-}
-
-.surround-padding-container{
-  padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
@@ -172,7 +168,7 @@ a{
     padding-bottom: 2rem;
   }
 
-  .surround-padding-container{
+  .side-padding-container{
     padding-right: 10%;
     padding-left: 10%;
   }

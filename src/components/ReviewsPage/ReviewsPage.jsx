@@ -25,7 +25,7 @@ export default function ReviewsPage() {
             data={posts}
             RenderComponent={Review}
             title="Posts"
-            pageLimit={5}
+            pageLimit={2} //change this to render more pages
             dataLimit={10}
           />
         </>

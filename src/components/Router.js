@@ -4,7 +4,7 @@ import Footer from "./Footer/Footer";
 import HomePage from "./HomePage/HomePage";
 import ReviewsPage from "./ReviewsPage/ReviewsPage";
 import UpgradesPage from "./UpgradesPage/UpgradesPage";
-import ContactPage from "./ContactPage/ContactPage";
+import AboutPage from "./AboutPage/AboutPage";
 import {
   BrowserRouter,
   Switch,
@@ -22,7 +22,7 @@ export default function Router() {
       <Switch>
         <Route path="/reviews" component={ReviewsPage} />
         <Route path="/upgrades" component={UpgradesPage} />
-        <Route path="/contact" component={ContactPage} />
+        <Route path="/about" component={AboutPage} />
         <Route path="/" component={HomePage} />
         <Route path="/*">
           <Redirect to="/" />
