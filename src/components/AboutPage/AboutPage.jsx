@@ -44,7 +44,7 @@ export default function AboutPage(){
 
       <div className="body-style-1">
         <div className="container">
-          <p className="top-padding-container side-padding-container">This site is not only a noodle rating site, but also a way for me to experiment with React and learn to make a website on my own!
+          <p className="top-padding-container side-padding-container">This site is not only a noodle rating site but also a way for me to experiment with React and learn to make a website on my own!
           </p>
           <button type="button">Source code</button>
         </div>

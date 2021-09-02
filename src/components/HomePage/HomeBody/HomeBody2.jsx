@@ -10,10 +10,12 @@ export default function Homebody2(props){
         <div className={props.className}>
           <div className="container">
             <h2 className="bottom-padding-container">{props.headerText}</h2>
-            <p className="bottom-padding-container">{props.bodyText}</p>
-            <div className="home-button-container">
-              <Link to={props.link} className="button">{props.buttonText}</Link>
-            </div>
+            <p>{props.bodyText}</p>
+              <Link to={props.link}>
+                <button type="button">
+                  {props.buttonText}
+                </button>
+              </Link>
           </div>
           <img src={Meal} alt="tasty_meal" className="meal-img" />
         </div>  
