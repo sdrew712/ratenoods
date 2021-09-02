@@ -15,16 +15,19 @@ export default function HomePage(){
 			</div>
 		</div>
 		<Homebody1
+		className="body-style-1"
 		headerText="Hello!"
 		bodyText="I’m an instant noodle addict aspiring to try as many noodles as possible."
 		buttonText="See my noodle reviews"/>
 
 		<Homebody2
+		className="body-style-2"
 		headerText="Goodbye plain noodles!"
 		bodyText="Want to learn how to make your noodles more of a meal?"
 		buttonText="Upgrade your noodles"/>
 
 		<Homebody1
+		className="body-style-1"
 		headerText="About me"
 		bodyText="Who am I? What is this?"
 		buttonText="Visit about page"/>

@@ -5,7 +5,7 @@ import Meal from "./meal.jpg"
 export default function Homebody2(props){
     return(
       <>
-        <div className="body-style-2">
+        <div className={props.className}>
           <div className="container">
             <h2 className="bottom-padding-container">{props.headerText}</h2>
             <p>{props.bodyText}</p>
