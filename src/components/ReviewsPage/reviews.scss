@@ -69,6 +69,12 @@
   margin-top: 0;
 }
 
+.prev.disabled,
+.next.disabled {
+  pointer-events: none;
+  box-shadow: none;
+  color: #e0dccc
+}
 
 @media (min-width: 769px) {
   // all styles

@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 export default function Pagination(props) {
   const { data, RenderComponent, pageLimit, dataLimit } = props;
 
-  const [pages] = useState(Math.round(data.length / dataLimit));
+  const pages = 2; //change here if making more pages
   const [currentPage, setCurrentPage] = useState(1); // initially first page
   useEffect(() => {
     window.scrollTo({ behavior: "smooth", top: "0px" });
@@ -31,6 +31,9 @@ export default function Pagination(props) {
     let start = Math.floor((currentPage - 1) / pageLimit) * pageLimit;
     return new Array(pageLimit).fill().map((_, idx) => start + idx + 1);
   };
+
+  console.log(currentPage);
+
   return (
     <div>
       {/*  show 10 posts at a time */}
