@@ -10,7 +10,9 @@ export default function Homebody1(props){
           <div className="container">
             <h2 className="bottom-padding-container">{props.headerText}</h2>
             <p className="bottom-padding-container">{props.bodyText}</p>
-            <Link to={props.link} className="button">{props.buttonText}</Link>
+            <div className="home-button-container">
+              <Link to={props.link} className="button">{props.buttonText}</Link>
+            </div>
           </div>
         </div>            
       </>
