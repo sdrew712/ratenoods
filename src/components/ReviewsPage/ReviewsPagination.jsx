@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 
-export default function Pagination(props) {
+export default function ReviewsPagination(props) {
   const { data, RenderComponent, pageLimit, dataLimit } = props;
 
   const pages = 2; //change here if making more pages
@@ -32,7 +32,6 @@ export default function Pagination(props) {
     return new Array(pageLimit).fill().map((_, idx) => start + idx + 1);
   };
 
-  console.log(currentPage);
 
   return (
     <div>

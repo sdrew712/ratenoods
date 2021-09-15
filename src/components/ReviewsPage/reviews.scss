@@ -1,33 +1,10 @@
-.review-style-1{
-  background-color: var(--cream);
-  padding-top: 3rem;
-  padding-bottom: 5rem;
-}
-
-.review-style-2{
-  background-color: var(--light-cream);
-  padding-top: 3rem;
-  padding-bottom: 5rem;
-}
-
-.review-container{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.review-text-container{
-  order: 0;
-}
-
-.review-h2{
-  text-align: center;
-  padding-top: 2rem;
-}
-
 .date{
   font-size: 1rem;
   color: rgba(77, 62, 62, 0.6);
+}
+
+.post-text-container{
+  order: 0;
 }
 
 .button-container{
@@ -40,40 +17,9 @@
   margin-top: 4rem;
 }
 
-.img-container{
-  padding-top: 3rem;
-  order: 1;
-  display: flex;
-  justify-content: center;
-}
-
 .rating{
   font-size: 1rem;
-  padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.pagination{
-  background-color: var(--light-cream);
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.paginationItem{
-  display: none;
-}
-
-.pagination-button{
-  margin-top: 0;
-}
-
-.prev.disabled,
-.next.disabled {
-  pointer-events: none;
-  box-shadow: none;
-  color: #e0dccc
 }
 
 @media (min-width: 769px) {
@@ -82,74 +28,14 @@
   .review-button{
     margin-top: 4rem;
   }
-  
-  .review-container{
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    padding: 3rem 8rem 1rem 8rem;
-  }
-
-  .review-h2{
-    text-align: left;
-  }
-
-  .noodle-img{
-    height: 90%;
-    width: 90%;
-  }
-
-  // Styles for style2
-  .review-style-2 .date{
-    padding-left: 3rem;
-  }
-
-  .review-style-2 .review-text-container{
-    width: 45%;
-  }
-
-  .review-style-2 .img-container{
-    padding-top: 0;
-    width: 45%;
-  }
 
   .button-container{
     justify-content: flex-start;
   }
 
-  // Styles for style1
-
-  .review-style-1 .review-container{
-    clear: right;
-  }
-
-  .review-style-1 .review-text-container{
-    order: 1;
-    width: 45%;
-  }
-
-  .review-style-1 .img-container{
-    padding-top: 0;
-    width: 45%;
-    order: 0;
-  }
-
-  .review-style-1 .date{
+  .post-style-1 .date{
     padding-left: 0rem;
     padding-right: 3rem;
     float: right;
-  }
-
-  .pagination{
-    display: flex;
-    justify-content: center;
-  }
-
-  .paginationItem{
-    display: block;
-  }
-
-  .pagination-button{
-    margin: 1.5rem;
   }
 }

@@ -121,6 +121,60 @@ a{
   padding-left: 8%;
 }
 
+.post-style-1{
+  background-color: var(--cream);
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.post-style-2{
+  background-color: var(--light-cream);
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.post-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.post-text-container h2{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.img-container{
+  padding-top: 3rem;
+  order: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination{
+  background-color: var(--light-cream);
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.paginationItem{
+  display: none;
+}
+
+.pagination-button{
+  margin-top: 0;
+}
+
+.prev.disabled,
+.next.disabled {
+  pointer-events: none;
+  box-shadow: none;
+  color: #e0dccc
+}
+
 @media (min-width: 769px) {
   h1{
     font-size: 6.25rem;
@@ -172,5 +226,65 @@ a{
   .side-padding-container{
     padding-right: 10%;
     padding-left: 10%;
+  }
+
+  .post-container{
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 3rem 8rem 1rem 8rem;
+  }
+
+  .post-text-container h2{
+    text-align: left;
+  }
+
+  .post-img{
+    height: 90%;
+    width: 90%;
+  }
+
+  // Styles for style2
+  .post-style-2 .date{
+    padding-left: 3rem;
+  }
+
+  .post-style-2 .post-text-container{
+    width: 45%;
+  }
+
+  .post-style-2 .img-container{
+    padding-top: 0;
+    width: 45%;
+  }
+
+  // Styles for style1
+
+  .post-style-1 .post-container{
+    clear: right;
+  }
+
+  .post-style-1 .post-text-container{
+    order: 1;
+    width: 45%;
+  }
+
+  .post-style-1 .img-container{
+    padding-top: 0;
+    width: 45%;
+    order: 0;
+  }
+
+  .pagination{
+    display: flex;
+    justify-content: center;
+  }
+
+  .paginationItem{
+    display: block;
+  }
+
+  .pagination-button{
+    margin: 1.5rem;
   }
 }

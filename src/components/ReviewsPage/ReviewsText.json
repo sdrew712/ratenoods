@@ -1,6 +1,6 @@
 [
   {
-    "className": "review-style-2",
+    "className": "post-style-2",
     "date": "August 18, 2021",
     "noodleName": "Maruchan Chicken",
     "rating": "Rating: 🍜🍜🍜",
@@ -8,7 +8,7 @@
     "noodleImg": "maruchan-chicken"
   },
   {
-    "className": "review-style-1",
+    "className": "post-style-1",
     "date": "August 19, 2021",
     "noodleName": "Top Ramen Chicken",
     "rating": "Rating: 🍜🍜🍜",
@@ -16,7 +16,7 @@
     "noodleImg": "top-ramen-chicken"
   },
   {
-    "className": "review-style-2",
+    "className": "post-style-2",
     "date": "September 1, 2021",
     "noodleName": "Indomie Chicken Curry",
     "rating": "Rating: 🍜🍜🍜🍜",
@@ -24,7 +24,7 @@
     "noodleImg": "indomie-chicken-curry"
   },
   {
-    "className": "review-style-1",
+    "className": "post-style-1",
     "date": "September 1, 2021",
     "noodleName": "Mama Chand Clear Soup",
     "rating": "Rating: 🍜🍜🍜🍜🍜",
@@ -32,7 +32,7 @@
     "noodleImg": "mama-chand-clear"
   },
   {
-    "className": "review-style-2",
+    "className": "post-style-2",
     "date": "September 1, 2021",
     "noodleName": "Myojo Beef Udon",
     "rating": "Rating: 🍜",
@@ -40,7 +40,7 @@
     "noodleImg": "myojo-beef"
   },
   {
-    "className": "review-style-1",
+    "className": "post-style-1",
     "date": "September 1, 2021",
     "noodleName": "Mama Pa-Lo Duck",
     "rating": "Rating: 🍜🍜🍜🍜🍜",
@@ -48,7 +48,7 @@
     "noodleImg": "mama-duck"
   },
   {
-    "className": "review-style-2",
+    "className": "post-style-2",
     "date": "September 1, 2021",
     "noodleName": "Soo Beef with Seaweed",
     "rating": "Rating: 🍜🍜",
@@ -56,7 +56,7 @@
     "noodleImg": "soo-beef-seaweed"
   },
   {
-    "className": "review-style-1",
+    "className": "post-style-1",
     "date": "September 1, 2021",
     "noodleName": "Mama Shrimp Creamy",
     "rating": "Rating: 🍜🍜",
@@ -64,7 +64,7 @@
     "noodleImg": "mama-shrimp-creamy"
   },
   {
-    "className": "review-style-2",
+    "className": "post-style-2",
     "date": "September 1, 2021",
     "noodleName": "Mama Rice Vermicelli",
     "rating": "Rating: 🍜🍜🍜🍜🍜",
@@ -72,7 +72,7 @@
     "noodleImg": "mama-vermicelli"
   },
   {
-    "className": "review-style-1",
+    "className": "post-style-1",
     "date": "September 1, 2021",
     "noodleName": "Snapdragon Beef Pho",
     "rating": "Rating: 🍜🍜",
@@ -80,7 +80,7 @@
     "noodleImg": "snapdragon-beef"
   },
   {
-    "className": "review-style-2",
+    "className": "post-style-2",
     "date": "September 1, 2021",
     "noodleName": "Vifon Chicken Pho",
     "rating": "Rating: 🍜🍜🍜🍜🍜",
