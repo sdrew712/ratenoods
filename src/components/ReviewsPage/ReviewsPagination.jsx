@@ -6,7 +6,7 @@ export default function ReviewsPagination(props) {
   const pages = 2; //change here if making more pages
   const [currentPage, setCurrentPage] = useState(1); // initially first page
   useEffect(() => {
-    window.scrollTo({ behavior: "smooth", top: "0px" });
+    window.scrollTo({ behavior: "smooth", top: 0 });
   }, [currentPage]);
 
   function goToNextPage() {
