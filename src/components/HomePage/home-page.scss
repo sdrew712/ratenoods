@@ -1,36 +1,36 @@
-.header{
+.header {
   text-align: center;
   background-color: var(--coral);
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-.panda{
+.panda {
   height: 11.25rem;
   width: 11.25rem;
   justify-content: center;
   filter: none; //to do: change when no longer an image
 }
 
-.header-text-container{
+.header-text-container {
   color: var(--cream);
   padding-top: 2rem;
   padding-bottom: 4rem;
 }
 
 @media (min-width: 769px) {
-  .panda{
+  .panda {
     height: 20rem;
     width: 20rem;
     margin-left: 4rem;
   }
-  .header{
+  .header {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 6rem;
   }
-  .header-text-container{
+  .header-text-container {
     padding-left: 6rem;
     margin-right: 15%;
     text-align: left;

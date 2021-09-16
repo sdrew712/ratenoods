@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-
+import React, { useState, useEffect } from "react";
 
 export default function ReviewsPagination(props) {
   const { data, RenderComponent, pageLimit, dataLimit } = props;
@@ -32,7 +31,6 @@ export default function ReviewsPagination(props) {
     return new Array(pageLimit).fill().map((_, idx) => start + idx + 1);
   };
 
-
   return (
     <div>
       {/*  show 10 posts at a time */}
@@ -50,7 +48,9 @@ export default function ReviewsPagination(props) {
         {/* previous button */}
         <button
           onClick={goToPreviousPage}
-          className={`pagination-button prev ${currentPage === 1 ? "disabled" : ""}`}
+          className={`pagination-button prev ${
+            currentPage === 1 ? "disabled" : ""
+          }`}
         >
           prev
         </button>
@@ -70,7 +70,9 @@ export default function ReviewsPagination(props) {
         {/* next button */}
         <button
           onClick={goToNextPage}
-          className={`pagination-button next ${currentPage === pages ? "disabled" : ""}`}
+          className={`pagination-button next ${
+            currentPage === pages ? "disabled" : ""
+          }`}
         >
           next
         </button>

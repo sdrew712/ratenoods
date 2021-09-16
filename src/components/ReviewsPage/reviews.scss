@@ -1,23 +1,23 @@
-.date{
+.date {
   font-size: 1rem;
   color: rgba(77, 62, 62, 0.6);
 }
 
-.post-text-container{
+.post-text-container {
   order: 0;
 }
 
-.button-container{
+.button-container {
   order: 2;
   display: flex;
   justify-content: center;
 }
 
-.review-button{
+.review-button {
   margin-top: 4rem;
 }
 
-.rating{
+.rating {
   font-size: 1rem;
   padding-bottom: 2rem;
 }
@@ -25,15 +25,15 @@
 @media (min-width: 769px) {
   // all styles
 
-  .review-button{
+  .review-button {
     margin-top: 4rem;
   }
 
-  .button-container{
+  .button-container {
     justify-content: flex-start;
   }
 
-  .post-style-1 .date{
+  .post-style-1 .date {
     padding-left: 0rem;
     padding-right: 3rem;
     float: right;
