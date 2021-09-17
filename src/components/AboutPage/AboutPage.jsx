@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import PageHeader from "../PageHeader/PageHeader";
 import "./about-page.scss";
 
@@ -56,7 +57,9 @@ export default function AboutPage() {
             This site is not only a noodle rating site but also a way for me to
             experiment with React and learn to make a website on my own!
           </p>
-          <button type="button">Source code</button>
+          <a href="https://github.com/sdrew712/ratenoods.xyz">
+            <button type="button">Source code</button>
+          </a>
         </div>
       </div>
     </>
