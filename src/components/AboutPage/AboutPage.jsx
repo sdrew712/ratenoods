@@ -7,7 +7,7 @@ export default function AboutPage() {
     <React.Fragment>
       <PageHeader titleText="About me" />
 
-      <div className="body-style-3 container">
+      <div className="body-style-2 container">
         <div className="container">
           <h2>I'm Sarah</h2>
           <p className="top-padding-container side-padding-container">
