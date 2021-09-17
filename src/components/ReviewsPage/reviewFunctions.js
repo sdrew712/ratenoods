@@ -7,7 +7,10 @@ export default function reviewFunctions() {
   const mediaQuery = window.matchMedia("(min-width: 769px)");
 
   function appendButton() {
-    if (mediaQuery.matches) {
+    if (
+      mediaQuery.matches &&
+      window.location.href === "http://ratenoods.xyz/reviews"
+    ) {
       for (let i = 0; i < postTextContainer.length; i++) {
         postTextContainer[i].append(buttonContainer[i]);
       }
