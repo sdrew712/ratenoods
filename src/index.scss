@@ -170,9 +170,7 @@ a {
 
 .prev.disabled,
 .next.disabled {
-  pointer-events: none;
-  box-shadow: none;
-  color: #e0dccc;
+  display: none;
 }
 
 @media (min-width: 769px) {

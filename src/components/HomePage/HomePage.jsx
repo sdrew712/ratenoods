@@ -6,7 +6,7 @@ import "./home-page.scss";
 
 export default function HomePage() {
   return (
-    <>
+    <React.Fragment>
       <div className="header div-component">
         <img className="panda" src={Panda} alt="panda_eating_noodles" />
         <div className="header-text-container">
@@ -39,6 +39,6 @@ export default function HomePage() {
         buttonText="Visit about page"
         link="/about"
       />
-    </>
+    </React.Fragment>
   );
 }

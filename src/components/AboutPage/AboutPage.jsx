@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import PageHeader from "../PageHeader/PageHeader";
 import "./about-page.scss";
 
 export default function AboutPage() {
   return (
-    <>
+    <React.Fragment>
       <PageHeader titleText="About me" />
 
       <div className="body-style-3 container">
@@ -62,6 +61,6 @@ export default function AboutPage() {
           </a>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 }

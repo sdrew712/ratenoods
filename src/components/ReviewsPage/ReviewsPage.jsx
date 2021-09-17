@@ -19,10 +19,10 @@ export default function ReviewsPage() {
   if (error) return <h1>{error}</h1>;
 
   return (
-    <>
+    <React.Fragment>
       <PageHeader titleText="Instant Noodle Reviews" />
       {posts.length > 0 ? (
-        <>
+        <React.Fragment>
           <ReviewsPagination
             data={posts}
             RenderComponent={Review}
@@ -30,10 +30,10 @@ export default function ReviewsPage() {
             pageLimit={2} //change this to render more pages
             dataLimit={10}
           />
-        </>
+        </React.Fragment>
       ) : (
         <h1>No post to Display!</h1>
       )}
-    </>
+    </React.Fragment>
   );
 }
