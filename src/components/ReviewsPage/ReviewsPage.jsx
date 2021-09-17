@@ -21,19 +21,15 @@ export default function ReviewsPage() {
   return (
     <React.Fragment>
       <PageHeader titleText="Instant Noodle Reviews" />
-      {posts.length > 0 ? (
-        <React.Fragment>
-          <ReviewsPagination
-            data={posts}
-            RenderComponent={Review}
-            title="Posts"
-            pageLimit={2} //change this to render more pages
-            dataLimit={10}
-          />
-        </React.Fragment>
-      ) : (
-        <h1>No post to Display!</h1>
-      )}
+      <React.Fragment>
+        <ReviewsPagination
+          data={posts}
+          RenderComponent={Review}
+          title="Posts"
+          pageLimit={2} //change this to render more pages
+          dataLimit={10}
+        />
+      </React.Fragment>
     </React.Fragment>
   );
 }
