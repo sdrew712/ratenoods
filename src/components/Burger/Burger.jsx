@@ -36,7 +36,7 @@ export default function Burger() {
           <Link to="/upgrades">Upgrades</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/about">About</Link>
         </li>
       </ul>
     </div>
