@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import reviewFunctions from "./reviewFunctions";
 import Review from "./Review";
 import PageHeader from "../PageHeader/PageHeader";
 import ReviewsPagination from "./ReviewsPagination";
