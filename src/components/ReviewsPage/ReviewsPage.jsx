@@ -6,11 +6,26 @@ import ReviewsPagination from "./ReviewsPagination";
 import ReviewsText from "./ReviewsText.json";
 import "./reviews.scss";
 
-reviewFunctions();
-
 export default function ReviewsPage() {
   const [posts, setPosts] = useState([]);
   const [error] = useState("");
+
+  const reviewFunction = () => {
+    let postTextContainer = document.getElementsByClassName(
+      "post-text-container"
+    );
+    let buttonContainer = document.getElementsByClassName("button-container");
+
+    for (let i = 0; i < postTextContainer.length; i++) {
+      postTextContainer[i].append(buttonContainer[i]);
+    }
+  };
+
+  const mediaQuery = window.matchMedia("(min-width: 768px)");
+
+  useEffect(() => {
+    reviewFunction();
+  }, [mediaQuery]);
 
   useEffect(() => {
     setPosts(ReviewsText);
