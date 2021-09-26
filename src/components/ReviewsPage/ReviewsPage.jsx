@@ -16,16 +16,18 @@ export default function ReviewsPage() {
     );
     let buttonContainer = document.getElementsByClassName("button-container");
 
-    for (let i = 0; i < postTextContainer.length; i++) {
-      postTextContainer[i].append(buttonContainer[i]);
+    const mediaQuery = window.matchMedia("(min-width: 768px)");
+
+    if (mediaQuery.matches) {
+      for (let i = 0; i < postTextContainer.length; i++) {
+        postTextContainer[i].append(buttonContainer[i]);
+      }
     }
   };
 
-  const mediaQuery = window.matchMedia("(min-width: 768px)");
-
   useEffect(() => {
     reviewFunction();
-  }, [mediaQuery]);
+  });
 
   useEffect(() => {
     setPosts(ReviewsText);
